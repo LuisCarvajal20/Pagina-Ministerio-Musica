@@ -39,7 +39,7 @@
       },
       {
         titulo: "En tu Presencia",
-        tono: "E",
+        tono: "B",
         letra: `verso
         Digno es el cordero de Dios
         De recibir adoración

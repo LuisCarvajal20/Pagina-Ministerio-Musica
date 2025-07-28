@@ -38,9 +38,34 @@
         `
       },
       {
-        titulo: "Dios está aquí",
+        titulo: "En tu Presencia",
         tono: "C",
-        letra: "Tan cierto como el aire que respiro...",
+        letra: `verso
+        Digno es el cordero de Dios
+        De recibir adoración
+        De la muerte él nos salvo
+        Con su amor él nos libero
+        Compraste con tu sangre
+        Todo un pueblo para Dios
+        
+        verso
+        
+        Tu estas aquí, tu estas qui
+        Tu estas aquí, tu estas qui
+        Puedo sentir tu corazón
+        Latiendo en mí, sanándome
+        Puedo sentir tu gran amor
+        Entrando en mi cambiándome
+        
+        coro
+        Toda la gloria Jesús
+        Poder, riqueza y majestad
+        Sentado en el trono celestial
+        Bajo sus pies la tierra esta
+        Toda la gloria 
+        
+        De toda raza pueblo y nación
+        Tuyo es todo el poder`,
         acordes: "C  G  Am  F"
       },
       {

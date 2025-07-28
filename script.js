@@ -39,7 +39,7 @@
       },
       {
         titulo: "En tu Presencia",
-        tono: "C",
+        tono: "E",
         letra: `verso
         Digno es el cordero de Dios
         De recibir adoración
@@ -66,7 +66,11 @@
         
         De toda raza pueblo y nación
         Tuyo es todo el poder`,
-        acordes: "C  G  Am  F"
+        acordes: `Intro:(F#) E-F#-B 
+        Pre-coro:B-F#-E-F#
+        coro: B-E
+        Puente-compraste: E-F#-G#m-D#m-E-F#-G#m-E-F#
+        `
       },
       {
         titulo: "Gloria a Dios", 

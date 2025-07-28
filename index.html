@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de canciones Icthus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    
+    <div class="contenido_header">
+      <h1 class="titulo1"> Cancionero del Ministerio </h1>
+      <!--aqui iba un input-->
+      <button class="btn-inicio" id="btn-inicio">Inicio</button>
+    </div>
+  </header>
+  <div id="VocesMaculinas">
+    <h2 class="titulo2">
+      Voces Masculinas
+    </h2>
+    <div class="botones-vocalistas-Mas">
+      <button class=" btn" id="btn-wilson" onclick="mostrarCanciones('wilson')">
+        Wilson
+      </button>
+      <button class=" btn" id="btn-JnDiego" onclick="mostrarCanciones('juan')">
+        Juan Diego
+      </button>
+      <button class=" btn" id="btn-luis" onclick="mostrarCanciones('luis')">
+        Luis
+      </button>
+    </div>
+  </div>
+  <div class="VocesFemeninas">
+    <h2 class="titulo2">
+      Voces Femeninas
+    </h2>
+    <div class="botones-vocalistas">
+      <button class=" btn" id="btn-antonela" onclick="mostrarCanciones('antonela')">
+        Antonela
+      </button>
+      <button class=" btn" id="btn-luisa" onclick="mostrarCanciones('luisa')">
+        Luisa
+      </button>
+      <button class=" btn" id="btn-karol" onclick="mostrarCanciones('karol')">
+        Karol
+      </button>
+      <button class=" btn" id="btn-luciana" onclick="mostrarCanciones('luciana')">
+        Luciana
+      </button>
+    </div>
+  </div>
+  <div id="cantante">
+    <h2 class="titulo2" id="titulo-cantante"></h2>
+    <input type="text" class="buscador" id="buscador" placeholder="Buscar canción..." />
+  </div>
+  <main id="lista-canciones">
+    <!-- Canciones agregadas dinámicamente -->
+    
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

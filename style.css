@@ -1,0 +1,269 @@
+  body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url(./imagenes/logoMinisterio.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+    
+    height: 100vh; */
+    background-image: linear-gradient(
+      180deg,
+      #000000,
+      #0a0a0a,
+      #1b1b1b
+    );
+    color: rgb(83, 83, 83);
+    font-family: 'Quicksand';
+  }
+  .letra{
+    white-space: pre-wrap;
+    font-family: 'Quicksand';
+    color: #eee;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+  }
+  .letra.colapsada {
+    max-height: 6em; /* Muestra aprox. 4 líneas */
+  }
+  
+  .toggle-letra {
+    background-color: transparent;
+    border: none;
+    color: #d7d23f;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+
+  header {
+    height: 400px;
+    background-image: url("./imagenes/WhatsApp\ Image\ 2025-07-09\ at\ 1.14.51\ AM.jpeg");
+    background-size: 90% 120% ;       /* Hace que la imagen cubra todo el header */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;                /* Para centrar contenido */
+    justify-content: center;
+    align-items: center;
+    color: white;                 /* Color del texto encima del fondo */
+    position: relative;  
+  }
+  .btn-inicio{
+    background-image: linear-gradient( 
+      150deg,
+      #85193C,
+      #C5172E,
+      #a8a03d
+    ) ;
+    border-radius: 8px;
+    width:120px ;
+    height: 37px;
+    text-decoration: none;
+    border: #ccc solid 1px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 20px;
+    font-family: 'Quicksand';
+    padding-top: 2px;
+  }
+  .btn-inicio:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  .btn-inicio:active{
+    transform: scale(0.9);
+  }
+  .inicio{
+    padding-top: 310px;
+    z-index: 1;
+  }
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Oscurece un poco la imagen */
+    z-index: 0;
+  }
+  .contenido_header{
+    color: #eee;
+    z-index: 1;
+  }
+  /*header img{
+    max-width: 100%;
+    height: auto;
+  }*/
+  
+  input#buscador {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    display: flex;
+    display: none;
+  }
+  #lista-canciones{
+    display: none;
+  }
+  
+  .cancion {
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    color: rgb(101, 100, 100);
+  }
+  .cancion p{
+    color: rgb(216, 212, 212);
+  }
+  .cancion h2 {
+    color: #a71313;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .acordes {
+    font-size: 16px;
+    color: #1b1b1b;
+    font-family: monospace;
+    background: #eee;
+    padding: 10px;
+    white-space: pre-wrap;
+    border-radius: 5px;
+  }
+  
+  .btn{
+    background-image: linear-gradient( 
+      150deg,
+      #85193C,
+      #C5172E,
+      #a8a03d
+    ) ;
+    border-radius: 8px;
+    width:150px ;
+    height: 50px;
+    text-decoration: none;
+    border: #ccc solid 1px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 20px;
+    font-family: 'Quicksand';
+  }
+  .btn:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  .btn:active{
+    transform: scale(0.9);
+  }
+  .botones-vocalistas{
+    display: grid;
+    grid-auto-flow: column; /* Coloca los elementos en fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    gap: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-bottom: solid 1px;
+    border-width: 5px;
+  }
+  .botones-vocalistas-Mas{
+    display: grid;
+    grid-auto-flow: column; /* Coloca los elementos en fila */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    gap: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-bottom: solid 1px;
+  }
+  .titulo1{
+    padding-top: 160px;
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .titulo2 {
+    color: #eee;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  #cantante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;          
+    
+  }
+  .resaltado {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 3px;
+  }
+  .mensaje-vacio {
+    text-align: center;
+    padding: 30px;
+    height: 70px;
+    font-size: 18px;
+    color: #888;
+    font-style: italic;
+  }
+  .transponer-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .tono-original {
+    font-weight: bold;
+    color: #07917a;
+  }
+  .tonoSelect {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+  }
+  @media (max-width: 768px) {
+    header {
+      height: 300px;
+      padding: 10px;
+    }
+  
+    .titulo1{
+      padding-top: 100px;
+      font-size: 1.9rem;
+
+    }
+  
+    input#buscador {
+      font-size: 0.7rem;
+      width: 60%;
+      margin-top: 70px;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* ligero movimiento hacia arriba */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -18,41 +18,60 @@
       <button class="btn-inicio" id="btn-inicio">Inicio</button>
     </div>
   </header>
-  <div id="VocesMaculinas">
-    <h2 class="titulo2">
-      Voces Masculinas
-    </h2>
-    <div class="botones-vocalistas-Mas">
-      <button class=" btn" id="btn-wilson" onclick="mostrarCanciones('wilson')">
-        Wilson
-      </button>
-      <button class=" btn" id="btn-JnDiego" onclick="mostrarCanciones('juan')">
-        Juan Diego
-      </button>
-      <button class=" btn" id="btn-luis" onclick="mostrarCanciones('luis')">
-        Luis
-      </button>
+  <div class="contenerdor-btnes" id="contenerdor-btnes">
+    <div class="lista-general">
+      <h2 class="titulo2">
+        Lista general
+      </h2>
+      <div class="botones-vocalistas-Mas">
+        <button class=" btn" id="btn-eucaristia" onclick="mostrarCanciones('eucaristia')">
+          Eucaristia
+        </button>
+        <button class=" btn" id="btn-movidas" onclick="mostrarCanciones('movidas')">
+          Popurri Movidas
+        </button>
+        <button class=" btn" id="btn-eventos" onclick="mostrarCanciones('eventos')"> <!--cambiar por una funsion nueva para desplegar mas bottones correspondientes-->
+          Eventos
+        </button>
+      </div>
+    </div>
+    <div id="VocesMaculinas">
+      <h2 class="titulo2">
+        Voces Masculinas
+      </h2>
+      <div class="botones-vocalistas-Mas">
+        <button class=" btn" id="btn-wilson" onclick="mostrarCanciones('wilson')">
+          Wilson
+        </button>
+        <button class=" btn" id="btn-JnDiego" onclick="mostrarCanciones('juan')">
+          Juan Diego
+        </button>
+        <button class=" btn" id="btn-luis" onclick="mostrarCanciones('luis')">
+          Luis
+        </button>
+      </div>
+    </div>
+    <div class="VocesFemeninas">
+      <h2 class="titulo2">
+        Voces Femeninas
+      </h2>
+      <div class="botones-vocalistas">
+        <button class=" btn" id="btn-antonela" onclick="mostrarCanciones('antonela')">
+          Antonela
+        </button>
+        <button class=" btn" id="btn-luisa" onclick="mostrarCanciones('luisa')">
+          Luisa
+        </button>
+        <button class=" btn" id="btn-karol" onclick="mostrarCanciones('karol')">
+          Karol
+        </button>
+        <button class=" btn" id="btn-luciana" onclick="mostrarCanciones('luciana')">
+          Luciana
+        </button>
+      </div>
     </div>
   </div>
-  <div class="VocesFemeninas">
-    <h2 class="titulo2">
-      Voces Femeninas
-    </h2>
-    <div class="botones-vocalistas">
-      <button class=" btn" id="btn-antonela" onclick="mostrarCanciones('antonela')">
-        Antonela
-      </button>
-      <button class=" btn" id="btn-luisa" onclick="mostrarCanciones('luisa')">
-        Luisa
-      </button>
-      <button class=" btn" id="btn-karol" onclick="mostrarCanciones('karol')">
-        Karol
-      </button>
-      <button class=" btn" id="btn-luciana" onclick="mostrarCanciones('luciana')">
-        Luciana
-      </button>
-    </div>
-  </div>
+  
   <div id="cantante">
     <h2 class="titulo2" id="titulo-cantante"></h2>
     <input type="text" class="buscador" id="buscador" placeholder="Buscar canción..." />

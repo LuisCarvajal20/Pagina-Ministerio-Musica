@@ -160,10 +160,11 @@
 
 
   let cancionesMostradas=[];  // aquí guardamos las canciones activas
-      
+  const ContenedorBtn =document.getElementById("contenerdor-btnes");    
   function mostrarCanciones(nombre) {
     cancionesMostradas = cancionesPorCantante[nombre];
     contenedor.style.display="block";
+    ContenedorBtn.style.display="none";
     input.style.display="block";
     input.value= "";
     tituloCantante.textContent="Canciones "+nombre;

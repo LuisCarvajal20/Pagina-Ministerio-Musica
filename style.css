@@ -76,6 +76,7 @@
     font-size: 20px;
     font-family: 'Quicksand';
     padding-top: 2px;
+    padding-bottom: 10px;
   }
   .btn-inicio:hover{
     transition: 0.5s;
@@ -99,10 +100,7 @@
     color: #eee;
     z-index: 1;
   }
-  /*header img{
-    max-width: 100%;
-    height: auto;
-  }*/
+  
   
   input#buscador {
     padding: 10px;
@@ -169,22 +167,20 @@
     transform: scale(0.9);
   }
   .botones-vocalistas{
-    display: grid;
-    grid-auto-flow: column; /* Coloca los elementos en fila */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    gap: 40px;
-    padding-bottom: 40px;
-    padding-top: 10px;
-    border-bottom: solid 1px;
-    border-width: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0 10px;
   }
   .botones-vocalistas-Mas{
-    display: grid;
-    grid-auto-flow: column; /* Coloca los elementos en fila */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0 10px;
     padding-bottom: 40px;
     padding-top: 10px;
     border-bottom: solid 1px;
@@ -238,10 +234,31 @@
     border-radius: 5px;
     border: 1px solid #aaa;
   }
-  @media (max-width: 768px) {
+
+  @media (max-width: 600px) {
+    .titulo1 {
+      font-size: 1.5rem;
+    }
+    input#buscador {
+      font-size: 0.6rem;
+      width: 50%;
+      margin-top: 60px;
+    }
+    header {
+      height: 250px;
+      padding: 10px;
+      background-size: 130% 120% ;
+    }
+    .titulo2{
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 900px) {
     header {
       height: 300px;
       padding: 10px;
+      background-size: 100% 120% ;
     }
   
     .titulo1{
@@ -254,6 +271,9 @@
       font-size: 0.7rem;
       width: 60%;
       margin-top: 70px;
+    }
+    .titulo2 {
+      font-size: 1.8rem;
     }
   }
   @keyframes fadeIn {

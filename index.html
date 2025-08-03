@@ -24,7 +24,10 @@
         Lista general
       </h2>
       <div class="botones-vocalistas-Mas">
-        <button class=" btn" id="btn-eucaristia" onclick="mostrarCanciones('eucaristia')">
+        <button class=" btn" id="btn-lista-general" onclick="mostrarCancionesGenerales()">
+          Todas las canciones
+        </button>
+        <button class=" btn" id="btn-eucaristia" onclick="mostrarEucaristia()">
           Eucaristia
         </button>
         <button class=" btn" id="btn-movidas" onclick="mostrarCanciones('movidas')">
@@ -69,6 +72,22 @@
           Luciana
         </button>
       </div>
+    </div>
+  </div>
+  <div class="momentoEucaristia" id="momentoEucaristia">
+    <h2 class="titulo2">
+      Momentos de la Eucaristia
+    </h2>
+    <div class="botones-momentos">
+    
+      <button class=" btn" onclick="mostrarMomento('entrada')">Entrada</button>
+      <button class=" btn" onclick="mostrarMomento('penitencia')">Penitencia</button>
+      <button class=" btn" onclick="mostrarMomento('lectura')">Lectura</button>
+      <button class=" btn" onclick="mostrarMomento('aleluya')">Aleluya</button>
+      <button class=" btn" onclick="mostrarMomento('ofertorio')">Ofertorio</button>
+      <button class=" btn" onclick="mostrarMomento('santo')">Santo</button>
+      <button class=" btn" onclick="mostrarMomento('comunion')">Comunión</button>
+      <button class=" btn" onclick="mostrarMomento('salida')">Salida</button>
     </div>
   </div>
   

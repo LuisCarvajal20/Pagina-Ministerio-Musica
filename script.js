@@ -66,8 +66,9 @@
         
         De toda raza pueblo y nación
         Tuyo es todo el poder`,
-        acordes: `Intro:(F#) E-F#-B 
-        Pre-coro:B-F#-E-F#
+        acordes: `
+        Intro:(F#) E-F#-B 
+        Pre-coro: B-F#-E-F#
         coro: B-E
         Puente-compraste: E-F#-G#m-D#m-E-F#-G#m-E-F#
         `
@@ -96,10 +97,27 @@
     ],
     luis: [
       {
-        titulo: "Santo es el Señor",
-        tono: "A",
-        letra: "Santo, Santo, Santo es el Señor...",
-        acordes: "A  E  D  A"
+        titulo: `Aleluya-shrek`,
+        tono: "C",
+        letra: `
+        Un soldado a casa hoy regreso
+        Y un niño enfermo se curó
+        Y hoy ya no hay más sombras que te cubran
+        Un desamparado se salvó por causa de una buena acción
+        Milagros ocurrer aleluya
+        Aleluyah
+        Aleluyah
+        Aleluyah
+        Aleluyah
+        `,
+        acordes: `
+        Intro: C-Am
+        verso: F-G-C-G
+        verso 2: C-F-G-Am-F-G-Em-Am
+        coro (aleluya):F-Am-F-C-G (C)
+        `,
+        categorias:["eucaristia"],
+        momentoLiturgico: "aleluya"
       }
     ],
     antonela:[
@@ -109,20 +127,92 @@
         letra: "Que mis manos se desgasten tocando para ti...",
         acordes: "A  E  D  Dm"
       }
-    ]
+    ],
+    luisa:[
+      {
+        titulo:"Renueva mi espiritu",
+        tono:"E",
+        letra:`
+                    Verso:
+            Lava mi pecado, límpiame Señor
+            Borra mis maldades, purificame
+            Mi Dios.
+            Coro:
+            Renueva mi espíritu,
+            Dame un nuevo y perfecto corazón
+            Renueva mi espíritu,
+            No te alejes de mi.
+            Espíritu de Dios
+
+            Puente:
+            Lléname, lléname de tu Espíritu
+          
+        `,
+        acordes:`
+        Tono luisa: E
+        verso: E-C#m-A-F#m-B
+        coro: E-C#m-A-B
+        puente: C#m-B-E-A-F#m-B
+        `,
+        categorias:["eucaristia"],
+        momentoLiturgico: "penitencia"
+      }
+    ],
+    karol:[
+      {
+        titulo: "Tengo Hambre de ti",
+        tono: "D",
+        letra:  `
+        Por un momento en Tu precencia [ah-ahh]
+        Por un instante de Tu amor
+        Por un destello de Tu gloria
+        Por un minuto nada mas
+
+        Todo daria, no importaria
+        lo que tenga que pasar
+        lo que tenga que esperar...
+        Tengo hambre de Ti
+        de Tu presencia
+        de Tu fragancia
+        de Tu poder
+
+        Hambre que duele
+        Que debilita
+        Que desespera
+        Por Ti, Señor Jesus
+        Tengo hambre de Ti x2
+        
+        
+        `,
+        acordes: `
+        D-A-Bm-G
+        
+        `
+
+      }
+    ],
+    
   };
   // Cargar canciones al HTML
-
+  const cancionesTodas = Object.values(cancionesPorCantante).flat();
   const btnInicio = document.getElementById("btn-inicio");
   const contenedor = document.getElementById("lista-canciones");
   const tituloCantante =document.getElementById("titulo-cantante");
   const input =document.getElementById("buscador");
-  
+  const cancionesEucaristia = cancionesTodas.filter(c =>
+    c.categorias && c.categorias.includes("eucaristia")
+  );
+  const momentoEucaristia= document.getElementById("momentoEucaristia");
   btnInicio.addEventListener("click",()=>{
       location.reload();
   });
-
-
+  // canciones por momento liturgico
+  function obtenerCancionesPorMomento(momento) {
+    return cancionesTodas.filter(c =>
+      c.categorias && c.categorias.includes("eucaristia") &&
+      c.momentoLiturgico === momento
+    );
+  }
   function normalizarTexto(texto) {
     return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   }
@@ -155,10 +245,6 @@
     return partes.join('');
   }
 
-
-
-
-
   let cancionesMostradas=[];  // aquí guardamos las canciones activas
   const ContenedorBtn =document.getElementById("contenerdor-btnes");    
   function mostrarCanciones(nombre) {
@@ -174,7 +260,6 @@
   function renderizarCanciones(lista, texto = "") {
     const contenedor = document.getElementById("lista-canciones");
     contenedor.innerHTML = "";
-
     if (lista.length === 0) {
       const mensaje = document.createElement("div");
       mensaje.className = "mensaje-vacio";
@@ -182,8 +267,6 @@
       contenedor.appendChild(mensaje);
       return; // detenemos aquí
     }
-
-
 
     lista.forEach(cancion => {
       const tituloHTML = resaltarCoincidencias(cancion.titulo, texto);
@@ -275,5 +358,35 @@ function transportarAcordePorTono(acorde, tonoOriginal, tonoNuevo) {
   });
   
 }
-  
+
+//para introducir una lista general de todas las canciones
+function mostrarCancionesGenerales() {
+  cancionesMostradas = cancionesTodas;
+  contenedor.style.display="block";
+  ContenedorBtn.style.display="none";
+  document.getElementById("buscador").style.display = "block";
+  document.getElementById("buscador").value = "";
+  tituloCantante.textContent="Lista General de Canciones ";
+  renderizarCanciones(cancionesMostradas);
+}
+
+function mostrarEucaristia() {
+  cancionesMostradas = cancionesEucaristia;
+  momentoEucaristia.style.display="block";
+  contenedor.style.display="block";
+  ContenedorBtn.style.display="none";
+  document.getElementById("buscador").style.display = "block";
+  document.getElementById("buscador").value = "";
+  tituloCantante.textContent="Lista de Canciones Eucaristicas ";
+  renderizarCanciones(cancionesEucaristia);
+}
+function mostrarMomento(momento) {
+  const lista = obtenerCancionesPorMomento(momento);
+  cancionesMostradas = lista;
+  document.getElementById("buscador").style.display = "block";
+  document.getElementById("buscador").value = "";
+  tituloCantante.textContent="Canciones para "+momento;
+  renderizarCanciones(lista);
+}
+
   

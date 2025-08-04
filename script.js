@@ -142,7 +142,7 @@
             Dame un nuevo y perfecto corazón
             Renueva mi espíritu,
             No te alejes de mi.
-            Espíritu de Dios
+            
 
             Puente:
             Lléname, lléname de tu Espíritu

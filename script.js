@@ -126,6 +126,76 @@
         tono: "A",
         letra: "Que mis manos se desgasten tocando para ti...",
         acordes: "A  E  D  Dm"
+      },
+      {
+        titulo: "Abre los cielos",
+        tono: "G",
+        letra: `
+        Ven, Espíritu, ven
+        Haz lo que quieras hacer
+        Y derrama, oh, Dios, una nueva unción
+        Sobre esta nación (puede borrar eso, dile)
+        Ven, Espíritu, ven
+        Haz lo que quieras hacer
+        Y derrama, oh, Dios, una nueva unción
+        Sobre esta nación
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria aquí
+        Ven, Espíritu, ven (Oh, ven)
+        Haz lo que quieras hacer
+        Y derrama, oh, Dios, una nueva unción
+        Sobre esta nación
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria aquí
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria
+        Abre los cielos, Dios, y que caiga tu lluvia de gloria aquí`,
+        acordes: `
+        intro: Dm-C-G-C-Bb-F-Bb-Dm7-Bb-F-C
+        coro: A-Bb-C-Am-Dm7-Gm-C-Bb-F
+        `
+      },
+      {
+        titulo: "Vine a adorarte",
+        tono: "G",
+        letra: `
+        Tú eres la luz
+        Que brilló en las tinieblas
+        Abrió mis ojos, pude ver
+        Mi corazón
+        Adora tu hermosura
+        Esperanza de vida eres tú
+        Vine a adorarte
+        Vine a postrarme
+        Vine a decir que eres mi Dios
+        Solo tú eres grande
+        Solo tú eres digno
+        Eres asombroso para mí
+        Tú eres el rey
+        Grandemente exaltado
+        Glorioso por siempre, señor
+        Al mundo que creaste
+        Humilde viniste
+        Y pobre te hiciste por amor
+        Vine a adorarte
+        Vine a postrarme
+        Vine a decir que eres mi Dios
+        Solo tú eres grande
+        Solo tú eres digno
+        Eres asombroso para mí
+        Vine a adorarte
+        Vine a postrarme
+        Vine a decir que eres mi Dios
+        Solo tú eres grande
+        Solo tú eres digno
+        Eres asombroso para mí`,
+        acordes: `
+        intro:D-A-Bm-G
+              D-A-G
+        coro: D-A-Bm-G
+        `
       }
     ],
     luisa:[

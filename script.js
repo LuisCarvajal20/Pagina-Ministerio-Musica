@@ -257,7 +257,9 @@
         acordes: `
         D-A-Bm-G
         
-        `
+        `,
+        categorias:["santisimo"],
+        momentoLiturgico: "santisimo"
 
       }
     ],
@@ -439,17 +441,27 @@ function mostrarCancionesGenerales() {
   tituloCantante.textContent="Lista General de Canciones ";
   renderizarCanciones(cancionesMostradas);
 }
-
-function mostrarEucaristia() {
-  cancionesMostradas = cancionesEucaristia;
-  momentoEucaristia.style.display="block";
+function obtenerCancionesPorCategoria(categoria) {
+  return cancionesTodas.filter(c =>
+    c.categorias && c.categorias.includes(categoria)
+  );
+}
+//filtro por categoria de canciones sea eucaristia, eventos santisimo, etc
+function mostrarCategoria(categoria) {
+  const lista = obtenerCancionesPorCategoria(categoria);
+  if(categoria==="eucaristia"){
+  	 momentoEucaristia.style.display="block"
+  }
+  cancionesMostradas = lista;
   contenedor.style.display="block";
   ContenedorBtn.style.display="none";
   document.getElementById("buscador").style.display = "block";
   document.getElementById("buscador").value = "";
-  tituloCantante.textContent="Lista de Canciones Eucaristicas ";
-  renderizarCanciones(cancionesEucaristia);
+  tituloCantante.textContent="Lista de canciones para "+categoria;
+  renderizarCanciones(lista);
 }
+
+
 function mostrarMomento(momento) {
   const lista = obtenerCancionesPorMomento(momento);
   cancionesMostradas = lista;

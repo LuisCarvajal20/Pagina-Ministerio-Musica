@@ -71,7 +71,9 @@
         Pre-coro: B-F#-E-F#
         coro: B-E
         Puente-compraste: E-F#-G#m-D#m-E-F#-G#m-E-F#
-        `
+        `,
+        categorias:["santisimo"],
+        momentoLiturgico: "santisimo"
       },
       {
         titulo: "Gloria a Dios", 
@@ -118,6 +120,49 @@
         `,
         categorias:["eucaristia"],
         momentoLiturgico: "aleluya"
+      },
+      {
+        titulo:"Te alabaran oh Yahve todos los reyes",
+        tono:"G",
+        letra: ` 
+        Te alabaran oh señor todos los reyes 
+        todos los reyes de la tierra
+        por que han oido los dichos de tu boca
+        y cantaran de los caminos de yave
+        por que la gloria del señor es grande 
+        por que el señor es excelso en sus caminos
+        por que el señor atiende al humilde 
+        mas mira de lejos al altivo
+
+        alabare.. 
+
+        Demos gracias al señor demos gracias 
+        demos gracias por su amor (bisx2)
+
+        En las mañanas las aves cantan 
+        las alabanzas al cristo el salvador 
+        y por las tardes las flores cantan
+        las alabanzas al cristo el salvador
+        
+        Cuando cristo vino a mi corazon mi vida entera cambio
+        su paz y su amor se acercaron a mi se fue la pena y el temor 
+                          (bis x2)
+        Jesus lo vencio muriendo en la cruz 
+        y hoy puedo cantar de su amor
+
+        alabare..
+
+        `,
+        acordes: ` 
+        Te alabaran: G-D-G
+                    C-G-D-G
+        demos gracias: C-G-C
+                       F-C-G-C
+        cuando cristo vino: F-Bb-F-Bb-C
+                    su paz: F-Bb-F-Dm-Bb-C-F
+           Jesus lo vencio: Bb-C-F-Dm-Bb-C-F
+        `,
+        categorias:["popurri"]
       }
     ],
     antonela:[
@@ -195,7 +240,9 @@
         intro:D-A-Bm-G
               D-A-G
         coro: D-A-Bm-G
-        `
+        `,
+        categorias:["santisimo"],
+        momentoLiturgico: "santisimo"
       }
     ],
     luisa:[

@@ -35,7 +35,8 @@
         Intro: A-C#m7-D-Dm (E)
         coro: A-D-E
         Puente:A-F#m-Bm-D-E
-        `
+        `,
+        categorias:["adoracion"]
       },
       {
         titulo: "En tu Presencia",
@@ -72,7 +73,7 @@
         coro: B-E
         Puente-compraste: E-F#-G#m-D#m-E-F#-G#m-E-F#
         `,
-        categorias:["santisimo"],
+        categorias:["santisimo","precencia"],
         momentoLiturgico: "santisimo"
       },
       {
@@ -88,10 +89,11 @@
         `,
         acordes: `G  C  D  G `
       }
+    
     ],
     juan: [
       {
-        titulo: "Alma Misionera",
+        titulo: "Shema",
         tono: "A",
         letra: "Señor toma mi vida nueva...",
         acordes: "D  A  Bm  G"
@@ -163,6 +165,73 @@
            Jesus lo vencio: Bb-C-F-Dm-Bb-C-F
         `,
         categorias:["popurri"]
+      },
+      {
+        titulo:"Cuan grande es Dios",
+        tono:"C",
+        letra: `
+              El esplendor de un Rey
+              Vestido en majestad
+              La tierra alegre está
+              La tierra alegre está
+
+              Cubierto está de luz
+              Venció la oscuridad
+              Y tiembla a su voz
+              Y tiembla a su voz
+
+              Cuan grande es Dios
+              Cántale, cuan grande es Dios
+              Y todos lo verán
+              Cuan grande es Dios
+
+              El esplendor de un Rey
+              Vestido en majestad
+              La tierra alegre está
+              La tierra alegre está
+
+              Cubierto está de luz
+              Venció la oscuridad
+              Y tiembla a su voz
+              Y tiembla a su voz
+
+              Cuan grande es Dios
+              Cántale, cuan grande es Dios
+              Y todos lo verán
+              Cuan grande es Dios
+
+              Cuan grande es Dios
+              Cántale, cuan grande es Dios
+              Y todos lo verán
+              Cuan grande es Dios
+
+              Día a día él está
+              Y el tiempo está en él
+              Principio y el fin
+              Principio y el fin
+
+              La Trinidad en Dios
+              El Padre, Hijo, Espíritu
+              Cordero y el León
+              Cordero y el León
+
+              Cuan grande es Dios
+              Cántale, cuan grande es Dios
+              Y todos lo verán
+              Cuan grande es Dios
+
+              Cuan grande es Dios
+              Cántale, cuan grande es Dios
+              Y todos lo verán
+              Cuan grande es Dios
+        `,
+        acordes:`
+        intro: C-G-Am-F-G
+        coro: C-G-Am-F-G-C
+        mi corazon:C-F-C-G-F-C
+        `,
+        categorias:["santisimo","adoracion"]
+
       }
     ],
     antonela:[
@@ -200,7 +269,9 @@
         acordes: `
         intro: Dm-C-G-C-Bb-F-Bb-Dm7-Bb-F-C
         coro: A-Bb-C-Am-Dm7-Gm-C-Bb-F
-        `
+        `,
+        categorias:["eucaristia","espiritu"],
+        momentoLiturgico:"entrada"
       },
       {
         titulo: "Vine a adorarte",
@@ -241,7 +312,7 @@
               D-A-G
         coro: D-A-Bm-G
         `,
-        categorias:["santisimo"],
+        categorias:["santisimo","adoracion"],
         momentoLiturgico: "santisimo"
       }
     ],
@@ -271,7 +342,7 @@
         coro: E-C#m-A-B
         puente: C#m-B-E-A-F#m-B
         `,
-        categorias:["eucaristia"],
+        categorias:["eucaristia","espiritu"],
         momentoLiturgico: "penitencia"
       }
     ],
@@ -305,7 +376,7 @@
         D-A-Bm-G
         
         `,
-        categorias:["santisimo"],
+        categorias:["santisimo","adoracion"],
         momentoLiturgico: "santisimo"
 
       }
@@ -396,7 +467,7 @@
       div.innerHTML = `
         <h2>${tituloHTML}</h2>
         <div class="transponer-container">
-                 <span class="tono-original">Tono original: ${cancion.tono}</span>
+                 <span class="tono-original">Tono para:  ${cancion.tono}</span>
                  <label>Transportar a:
                  <select class="tonoSelect">
                  ${tonos.map(t => `<option value="${t}" ${t === cancion.tono ? "selected" : ""}>${t}</option>`).join("")}

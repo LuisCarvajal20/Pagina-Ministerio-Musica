@@ -3,6 +3,91 @@
   const cancionesPorCantante = {
     wilson: [
       {
+        titulo: "Coritos",   // `
+        tono: "A",
+        letra:
+        `
+        //CON MIS MANOS://
+        
+        Con mis manos y mi vida 
+        te alabo señor te alabo señor(bisx2)
+
+        Por que tu haz sido precioso para mi
+        precioso para mi precioso para mi
+
+        Por que tu haz sido precioso para mi
+        precioso para mi precioso para mi
+        te alabo bendito señor
+
+        //ALABARE://
+
+        Alabaré, alabaré, alabaré, alabaré
+        Alabaré a mi Señor
+        Alabaré, alabaré, alabaré, alabaré
+        Alabaré a mi Señor
+
+       // YO TENGO UN AMIGO://
+
+        Yo tengo un amigo que me ama
+        Me ama, me ama
+        Yo tengo un amigo que me ama
+        Su Nombre es Jesús.
+        Que me ama, que me ama
+        Que me ama, con inmenso amor
+        Que me ama, que me ama
+        Que me ama, con inmenso amor
+
+       // TE ALABARAN OH SEÑOR TODOS LOS REYES://
+
+        Te alabaran oh señor todos los reyes
+        Todos los reyes de la tierra
+        por que han oido los dichos de su boca 
+        Y cantaran de los caminos del Señor
+
+        Porque la gloria del señor es grande,
+        Porque el señor es excelso en su camino,
+        Porque el señor atiende al humilde;
+        Más mira de lejos al altivo.
+
+        //DEMOS GRACIAS AL SEÑOR://
+
+        Demos gracias al señor
+        Demos gracias
+        Demos gracias por su amor
+
+        Por las mañanas las aves cantan
+        Las alabanzas al Cristo salvador
+        Y por las tardes las flores cantan
+        Las alabanzas al Cristo salvador
+
+        Y tu amigo por que no cantas
+        Las alabanzas al Cristo salvador
+
+
+
+        `,
+        acordes:`
+        con mis manos:
+        A-D-E-A
+        D-A-Bm-A
+        Bm-E-A
+
+        alabare:
+        A-D
+
+        yo tengo un amigo:
+        A-E
+
+        te alabaran oh señor:
+        A-E
+        D-A-E
+
+        demos gracias al señor:
+        A-D
+        
+        `,
+      },
+      {
         titulo: "Tu me sustentas",   //hay que utilizar los backtics para hacer los saltos de linea `
         tono: "A",
         letra: `
@@ -345,7 +430,7 @@
         categorias:["eucaristia","espiritu"],
         momentoLiturgico: "penitencia"
       },{
-        titulo:"Renueva mi espiritu",
+        titulo:"En el cielo se oye",
         tono:"C",
         letra:`En el cielo se oye 
         en la tierra se canta (Bisx2)
@@ -365,9 +450,7 @@
         lo que pongas lo que pongas lo que pongas en mi boca 
         yo cantare lo que pongas en mi boca(bisx2)
         
-        `,
-        acordes:
-
+        `
       }
     ],
     karol:[

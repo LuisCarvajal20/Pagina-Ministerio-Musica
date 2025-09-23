@@ -344,6 +344,30 @@
         `,
         categorias:["eucaristia","espiritu"],
         momentoLiturgico: "penitencia"
+      },{
+        titulo:"Renueva mi espiritu",
+        tono:"C",
+        letra:`En el cielo se oye 
+        en la tierra se canta (Bisx2)
+
+        Vamos todos a alabar al señor 
+        con panderas y guitarras (bisx 2)
+
+        Cristo me dijo que luchara otra vez (bisx3)
+
+        que no me desesperara sino que tuviera fe 
+
+        y yo yo yo le estoy alabando (bisx2)
+
+        nosotros no señor a ti es que te toca yo cantare
+        lo que pongas en mi boca(bisx2)
+
+        lo que pongas lo que pongas lo que pongas en mi boca 
+        yo cantare lo que pongas en mi boca(bisx2)
+        
+        `,
+        acordes:
+
       }
     ],
     karol:[
@@ -376,7 +400,7 @@
         D-A-Bm-G
         
         `,
-        categorias:["santisimo","adoracion"],
+        categorias:["santisimo","presencia"],
         momentoLiturgico: "santisimo"
 
       }

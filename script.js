@@ -186,6 +186,39 @@
     ],
     luis: [
       {
+        titulo: "Muestra me tu gloria",
+        tono: "F#",
+        letra: `
+        Aqui estas, aqui estoy
+        doy todo de mi, por todo de ti
+        no quiero salir de aqui
+        si no haz, de ir junto a mi
+
+        una cosa pedire, solo esto buscare 
+        muetrame tu gloria
+        eres tu mi gran desero, eres todo lo que anhelo, Jesus 
+        Muestrame tu gloria
+
+        Bueno eres, bueno para mi 
+        en mi caminar, me dejare guiar
+        Por valles bajos, o montes muy altos
+        Te seguire, pues nunca me dejaras
+
+        cuan ancho, cuan profundo
+        muestrame tu gloria
+        mi alma, desfallece 
+        Muestrame tu gloria
+        
+        `,
+        acordes: `
+        versos: F#-D#m-G#m-F#-C#
+        una cosa: F#-D#m-B-F#
+        cuan ancho:B-C#-A#m-D#m-C#
+        una cosa 2:B-C#-F#-C#-D#m-C#
+        
+        `
+      },
+      {
         titulo: `Aleluya-shrek`,
         tono: "C",
         letra: `

@@ -43,9 +43,9 @@
   }
 
   header {
-    height: 400px;
-    background-image: url("./imagenes/WhatsApp\ Image\ 2025-07-09\ at\ 1.14.51\ AM.jpeg");
-    background-size: 90% 120% ;       /* Hace que la imagen cubra todo el header */
+    height: 450px;
+    background-image: url("./imagenes/portada\ del\ ministerio.jpeg");
+    background-size: 40% 120% ;       /* Hace que la imagen cubra todo el header */
     background-position: center;  /* Centra la imagen */
     background-repeat: no-repeat;
     color: white;
@@ -75,8 +75,7 @@
     transition: 0.5s;
     font-size: 20px;
     font-family: 'Quicksand';
-    padding-top: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
   .btn-inicio:hover{
     transition: 0.5s;
@@ -99,6 +98,7 @@
   .contenido_header{
     color: #eee;
     z-index: 1;
+    margin-top: 160px;
   }
   
   
@@ -114,6 +114,7 @@
   }
   #lista-canciones{
     display: none;
+
   }
   
   .cancion {
@@ -139,6 +140,10 @@
     padding: 10px;
     white-space: pre-wrap;
     border-radius: 5px;
+    margin-left: 0 ;
+    padding-left: 0 ;
+    text-indent: 0 ;
+    text-align: left ;
   }
   
   .btn{
@@ -189,9 +194,8 @@
     border-bottom: solid 1px;
   }
   .titulo1{
-    padding-top: 160px;
+    padding-top: 180px;
     font-size: 40px;
-    padding-bottom: 10px;
   }
   .titulo2 {
     color: #eee;

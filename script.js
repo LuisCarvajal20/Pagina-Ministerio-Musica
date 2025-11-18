@@ -173,6 +173,57 @@
         y en la tierra paz a los hombres que ama el señor
         `,
         acordes: `G  C  D  G `
+      },{
+        titulo: "Como en el cielo",
+        tono: "G",
+        letra: `
+        La atmósfera cambiando está
+        Tu espíritu está aquí
+        Es evidente tu mover
+        Tu espíritu está aquí(bisx2)
+
+        Llena este lugar
+        Derramando tu amor
+        Tu amor me envuelve
+
+        He venido por ti
+        A tus brazos de amor
+        Tu amor me envuelve
+
+        La atmósfera cambiando está
+        Tu espíritu está aquí
+        Es evidente tu mover
+        Tu espíritu está aquí(bisx2)
+
+        Llena este lugar
+        Derramando tu amor
+        Tu amor me envuelve
+        He venido por ti
+        A tus brazos de amor
+        Tu amor me envuelve(bisx2)
+        (Espíritu ven, llena este lugar, uh oh oh) *ministracion expontanea
+
+        Que tu poder, descienda hoy
+        Venga tu reino
+        Que se haga aquí, tu voluntad
+        Como en el cielo (bisx3)
+       
+
+        Milagros pueden suceder
+        Tu espíritu está aquí
+        Es evidente tu mover
+        Tu espíritu está aquí (bisx2)
+
+        
+        `,
+        acordes:`
+        Intro:G-D-A
+        Verso 1: G-Bm-A
+        Puente:G-A-Bm-A
+        Instrumental: //// G - Em7 - Bm - A////- G -( A - Bm )- A
+        Verso final :G-D-A
+      
+        `
       }
     
     ],
@@ -182,6 +233,14 @@
         tono: "A",
         letra: "Señor toma mi vida nueva...",
         acordes: "D  A  Bm  G"
+      },{
+        titulo: "Alfa y Omega",
+        tono: "A",
+        letra: "Señor toma mi vida nueva...",
+        acordes: "D  A  Bm  G"
+
+
+
       }
     ],
     luis: [
@@ -614,7 +673,7 @@
                  </select>
                  </label>
         </div>
-        <pre class="acordes">${cancion.acordes}</pre>
+        <pre class="acordes">${cancion.acordes.trimStart()}</pre>
         <pre class="letra colapsada">${letraHTML}</pre>
         <button class="toggle-letra">Ver más...</button>
       `;

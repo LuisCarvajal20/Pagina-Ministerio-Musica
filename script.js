@@ -224,6 +224,57 @@
         Verso final :G-D-A
       
         `
+      },
+      {
+        titulo: "Dios manda lluvia", 
+        tono: "G",  
+        letra: `
+        Dios, manda lluvia, derrama de tu espíritu
+        Desciende hoy tu fuego
+        Sana mis heridas, restáurame Señor
+         //CORO//
+        Manda la lluvia, el rocío de tu amor
+        Llenando las vidas de tu pueblo hoy, Señor
+        Manda la lluvia, el rocío de tu amor
+        Visita hoy mi vida, cámbiame, Señor
+        `,
+        acordes: `
+        Intro: G-Em-C-Am-D-G
+        coro(Manda la lluvia):C-D-Bm-Em-Am-D-G
+        
+        `
+      },
+      {
+        titulo: "Cuerdas de amor", 
+        tono: "F",  
+        letra: `
+        Aunque pase el tiempo, sé
+        Que tu promesa cumplirás
+        Nada en ti se perderá
+        Esa es mi seguridad
+        Tus cuerdas de amor
+        Cayeron sobre mí
+        Tus cuerdas de amor
+        Cayeron sobre mí
+        Es tu amor que me sostiene
+        El que me levanta
+        El que me da paz
+        Me da seguridad
+        Es tu amor que me sostiene
+        El que me levanta
+        El que me da paz
+        Me da seguridad
+        De lo que vendrá
+        Tú tienes el control
+        Nunca pierdes el control
+        `,
+        acordes: `
+        Intro: Dm-Bb-F 
+        Pre coro:C-F-C-Dm
+        coro(Es tu amor):F-Dm-Am-Bb  
+        (de lo que vendra):Gm-Dm-C
+        
+        `
       }
     
     ],

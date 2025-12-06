@@ -230,9 +230,14 @@
     juan: [
       {
         titulo: "Shema",
-        tono: "A",
-        letra: "Señor toma mi vida nueva...",
-        acordes: "D  A  Bm  G"
+        tono: "G",
+        letra: `Shema israel alonai eloenu adonai eaaaa
+        escucha israel el señor es vuestro Dios uno es el señor
+        `,
+        acordes: `
+        Intro: Em-G-Am-B7-A-Em
+        escucha israel: G-Am-C-B7-Em
+        `
       },{
         titulo: "Alfa y Omega",
         tono: "A",
@@ -409,6 +414,71 @@
         `,
         categorias:["santisimo","adoracion"]
 
+      },{
+        titulo: `Lo haras otra vez`,
+        tono: "A",
+        letra: `
+        Muros rodeando estoy
+        Pensé que caerían hoy
+        Mas, nunca me has fallado, Dios
+
+        La espera terminará
+        Sé que has vencido ya
+        Nunca me has fallado, Dios
+         //CORO//
+        En ti confiaré
+        Tu promesa sigue en pie
+        Tú eres fiel
+        Confiado andaré
+        En tus manos estaré
+        Siempre has sido fiel
+        //VERSO 2//
+        La noche acabará
+        Tu palabra se cumplirá
+        Mi corazón te alabará
+        Cristo, mi Salvador
+        Cúbreme con tu amor
+        Mi corazón te alabará
+
+        //coro//
+        //PUENTE//
+        Yo sé que tú
+        Mueves montañas
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Abriste el mar
+        En el desierto
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Yo sé que tú
+        Mueves montañas
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Abriste el mar
+        En el desierto
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Yo sé que tú
+        Mueves montañas
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Abriste el mar
+        En el desierto
+        Yo creo en ti
+        Sé que lo harás otra vez
+        Sé que lo harás otra vez
+        Oh, oh, oh, oh, oh
+       
+        `,
+        acordes: `
+        Intro: D-A
+        coro(en ti): F#m-E-A-D
+        verso 2: D-A
+        puente(yo se que tu):D-E-A
+        
+        `,
+        categorias:["eucaristia"],
+        momentoLiturgico: "entrada"
       }
     ],
     antonela:[

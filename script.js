@@ -275,6 +275,24 @@
         (de lo que vendra):Gm-Dm-C
         
         `
+      },{
+        titulo: "Abre los cielos Dios", 
+        tono: "C",  
+        letra: `
+        Ven espíritu, ven
+        Has lo que quieras hacer
+        Y derrama oh Dios una nueva unción
+        Sobre esta nación
+
+        Abre los cielos Dios y que caiga tu lluvia de gloria
+        Abre los cielos Dios y que caiga tu lluvia de gloria
+        Abre los cielos Dios y que caiga tu lluvia de gloria aquí
+        `,
+        acordes: `
+        Intro: C-F-G-C-Am-F-Am-G
+        coro(Abre los cielos):F-G-Em-Am-F-G-C
+        
+        `
       }
     
     ],

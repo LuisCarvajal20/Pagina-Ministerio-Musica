@@ -853,7 +853,7 @@
     }, 0);
     
   }
-  
+
   // evento para filtrar canciones al escribir
   input.addEventListener("input", e => {
     const texto = normalizarTexto(e.target.value);
@@ -896,6 +896,7 @@ function mostrarCancionesGenerales() {
   document.getElementById("buscador").value = "";
   tituloCantante.textContent="Lista General de Canciones ";
   renderizarCanciones(cancionesMostradas);
+  
 }
 function obtenerCancionesPorCategoria(categoria) {
   return cancionesTodas.filter(c =>

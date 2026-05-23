@@ -315,6 +315,97 @@
 
 
 
+      },{
+        titulo: "Danzando",
+        tono: "D",
+        letra: `
+        //ESTROFA 1//
+        Tu palabra dice
+        Que aunque pase por el fuego, no me quemaré
+        Y si paso por las aguas, no me ahogaré
+        Aunque haya oscuridad, con fe, caminaré
+        Pues Tú siempre vas conmigo
+
+        Tu palabra dice
+        No hay justo que Tú hayas desamparado
+        Eres pan para el hambriento y necesitado
+        En mi mesa nunca, nunca ha faltado
+        Tú provees y no has fallado
+
+        //PRE CORO//
+        Yo no temeré
+        Tu promesa es fiel
+
+        //CORO//
+        Tu yugo es fácil, ligera es Tu carga
+        Te entrego mi vida y mi alabanza
+        Mi escudo, mi fuerza, mi seguridad
+        Con Cristo camino y estoy
+        Danzando en cada temporada
+        Danzando en cada temporada
+
+        ESTROFA 2//
+        Tu palabra dice
+        Que Tú oyes el clamor del quebrantado
+        Por Tu llaga en la cruz, fuimos sanados
+        Sobre toda enfermedad, Tú has ganado
+        Y mi vida está en Tu mano
+
+        Tu palabra dice
+        Que Tu muerte en la cruz fue por salvarnos
+        Que perdonas y redimes del pecado
+        Y en las nubes, seremos arrebatados
+        Cara a cara, te veremos
+
+        //PRE CORO//
+        Yo no temeré
+        Tu promesa es fiel
+
+        //CORO//
+        Tu yugo es fácil, ligera es Tu carga
+        Te entrego mi vida y mi alabanza
+        Mi escudo, mi fuerza, mi seguridad
+        Con Cristo camino y estoy
+
+        Danzando en cada temporada
+        Danzando en cada temporada
+        Danzando en cada temporada
+        Danzando en cada temporada
+
+        //RAP//
+        Sigo danzando, glorificando
+        En cada temporada, Tú sigues obrando
+        Aunque ande en el valle de sombra
+        Danzo, danzo (danzo, danzo)
+
+        No se apaga, no se apagará este ritmo
+        Aunque venga contra mí, el enemigo
+        Tus promesas siempre van conmigo
+        Danzo, danzo (danzo, danzo)...(Bisx2)
+
+        En Ti, yo confío (en Ti, yo confío)
+        En Ti, yo confío (en Ti, yo confío)
+        En Ti, yo confío (en Ti, yo confío)
+
+        //CORO y Final//
+          Tu yugo es fácil, ligera es Tu carga
+        Te entrego mi vida y mi alabanza
+        Mi escudo, mi fuerza, mi seguridad
+        Con Cristo camino y estoy...(Bisx2)
+        
+        Danzando en cada temporada
+        Danzando en cada temporada
+        Danzando en cada temporada
+        Danzando en cada temporada
+        `,
+        acordes:  `
+        Intro: Bm-G-D-A
+        estrofas: Bm-G-D-A
+        Pre coro: G-F#7-G-F#7
+        coro: Bm-G-D-A
+              G-F#7
+              Bm-G-D-A
+        `
       }
     ],
     luis: [

@@ -406,6 +406,47 @@
               G-F#7
               Bm-G-D-A
         `
+      },{
+        titulo: "Santo espiritu ven - Cristin D'Clario",
+        tono: "F",
+        letra: `
+        //ESTROFA 1//
+        Eres fuego en el monte y agua en desiertos
+        Respiro de vida a los huesos secos
+        Señor te pedimos, ven muévete aquí otra vez
+
+        Eres fuerza y defensa ante los enemigos
+        Maná de los cielos y aliento vivo
+        Señor te pedimos, ven muévete aquí otra vez
+
+        //PUENTE//
+        Santo Espíritu, ven muévete
+        Santo Espíritu, ven muévete
+
+        //ESTROFA 2//
+        Eres mano que sana y trae esperanza
+        Renuevo de paz para el alma cansada
+        Señor te pedimos, ven muévete aquí otra vez
+
+        Santo Espíritu, ven muévete
+        Santo Espíritu, ven muévete
+
+        //PUENTE//
+        Santo Espíritu, ven muévete
+        Santo Espíritu, ven muévete
+
+        //CORO//
+        Lo creemos, lo creemos
+        Tu poder todo lo puede hacer
+        Lo creemos, Santo Espíritu ven
+        `,
+        acordes: `
+        Intro: F-Am-Dm-Bb-F-C-Bb
+        Puente: Bb-Gm-F-Am
+                Bb-Gm-F
+        coro: Bb-Dm-C-Gm
+              Bb-Dm-C
+        `
       }
     ],
     luis: [
